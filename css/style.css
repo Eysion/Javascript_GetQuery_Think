@@ -1,0 +1,54 @@
+@charset "utf-8";
+html,body,p{ padding:0; margin:0; font-size: 14px; font-family: 'Microsoft Yahei' }
+ul,ol{ padding: 0; margin:0; }
+li { list-style-type: none; }
+a{ color:#47A0FF; }
+a:hover{ color:#0B74E8; }
+.background{background-color: #3399ff; border-radius: 5px; width:720px; padding: 10px; margin:50px auto 0;}
+.fl{float:left}.fr{float:right;}.clearfix{ clear: both; }
+.header{ height: 30px; padding-top: 20px; }
+.header .logo{ margin-top: -20px; }
+.login{ width:85px; margin-left: 640px; color:#fefefe; cursor: default; padding: 3px 0; }
+.login a{ color:#fefefe; cursor: pointer; padding: 0 3px; }.login a:hover{ color:#eee; }
+
+.devel-box{ background: #fefefe; border-radius: 5px;  }
+.devel-list{ width:220px; }
+.devel-list h4{ font-weight: normal; margin: 0; padding: 10px; background: #f2f7fe; }
+.devel-list ul{ padding: 10px 0; font-size: 12px; line-height: 20px; }
+.devel-list li{ margin-bottom: 5px; padding: 5px 10px 0;  height: 25px; cursor: pointer; color:#0B74E8; }
+.devel-list li:hover , .devel-list li.active{ color:#333; background: #eee; }
+.select_list i , .devel-list li i{ display: inline-block; width:18px; height: 19px; margin-right: 2px; background-repeat: no-repeat; background-image:url('../../images/api/devel-icon.png'); }
+.select_list .iphone i ,.devel-list li.iphone i{ background-position: 3px -20px; }
+.select_list .andriod i ,.devel-list li.andriod i{ background-position: 3px 0px; }
+.select_list .wp i ,.devel-list li.wp i{ background-position: 3px -40px; }
+.select_list .mac i ,.devel-list li.mac i{ background-position: 0 -60px; }
+.select_list .pc i ,.devel-list li.pc i{ background-position: 0 -80px; }
+.devel-list span.devel_name{ display: inline-block; width: 90px; overflow: hidden; text-overflow:ellipsis; white-space:nowrap;  }
+.devel-list span.devel_type{ display: inline-block; float:right; text-align: right; }
+
+.form-box{ width:500px; margin-left: 220px; background: #fefefe; padding:10px 0; border-left: 1px solid #ccc; }
+.form-box .title{ color:#999; padding: 7px 0 10px; }
+.fontnumber{ text-align: right; display: block; background: #fefefe; padding:5px 10px 0; }
+.devel-push{ border-top:1px solid #ccc; margin-top: 15px;  border-bottom: 1px solid #ccc; position: relative; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; -khtml-user-select: none; user-select: none; }
+.select_list{ margin:15px 0 15px 15px; width:472px; color:#666; height: 183px; overflow: auto; }
+.select_list:after{ display: block; clear:both; content:""; }
+.select_list div{ float: left; width:31%; margin-right: 2%; margin-bottom:15px; display: none; }
+.select_list h4{ margin:0 0 7px; }
+.select_list h5{ margin:0; background: #f2f7fe; padding: 5px; border:1px solid #ececec; }
+.select_list h5 i{ vertical-align: middle; padding-right: 4px; }
+.select_list ul{ height: 100px; overflow: auto; padding:5px 10px; border:1px solid #ececec; border-top:none; }
+.select_list ul li{ height: 20px; margin-top: 7px; }
+.select_list ul li i{ vertical-align: bottom; }
+.select_list li span{ display: inline-block; width:52px; overflow: hidden; text-overflow:ellipsis; white-space:nowrap; font-size: 12px; }
+.select_list b{ display: inline-block; margin-left: 10px; font-size: 14px; border:1px solid #ccc; line-height: 1; vertical-align: top; color:#ccc; font-weight: normal; width:16px; text-align: center; height: 16px; cursor: pointer; float: right; }
+.select_list b:hover{ color:#333; border-color: #333; }
+
+form{ width:500px; display: block; }
+label{ display: block; padding: 0 15px; }
+input , textarea{ width:96%; margin-top: 10px; border-radius: 2px; border:1px solid #ccc; padding: 0 2%; line-height: 1.7; color:#666; }
+textarea{ height: 120px; padding-top: 5px; }
+form a.host{ display: block; overflow: hidden; text-overflow:ellipsis; white-space:nowrap; width:95%; }
+.submsg{ background: #2DB892; border:none; border-radius: 4px; color:#fff; font-weight: bold; font-size: 14px; padding: 6px 15px; margin: 10px 10px 0 430px; cursor: pointer; }
+.submsg:hover{ background: #32A384 }
+
+.footer{ text-align: center; line-height: 2; color:#fefefe; }
